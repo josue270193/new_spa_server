@@ -69,4 +69,4 @@ jobs:
           java-version: '17'
       - name: Build and push Docker image
         id: build-and-push
-        run: mvn spring-boot:build-image --publishImage
+        run: mvn spring-boot:build-image
